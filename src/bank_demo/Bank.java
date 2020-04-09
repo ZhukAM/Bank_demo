@@ -1,7 +1,7 @@
 package bank_demo;
 
 /**
- * Created by Aleksandr Zhuk on 15.01.17.
+ * Edited by Aleksandr Zhuk on 09.04.20.
  */
 
 class Bank<T extends Account> {
@@ -18,7 +18,7 @@ class Bank<T extends Account> {
 
     public static void main(String[] args) {
         Account[] accounts = new Account[] {new Account(1857), new Account(2225),
-                new Account(33232)};
+        new Account(33232)};
         Bank<Account> bank = new Bank(accounts);
         bank.AccountsInfo();
     }
